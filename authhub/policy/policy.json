@@ -1,0 +1,18 @@
+{
+    "identity:role_list": 				["supervisor"],
+    "identity:role_create": 			["supervisor"],
+    "identity:role_detail": 			["supervisor"],
+    "identity:role_update": 			["supervisor"],
+    "identity:role_delete":	 			["supervisor"],
+
+    "identity:user_list": 				["supervisor"],
+    "identity:user_create": 			["supervisor"],
+    "identity:user_update": 			["supervisor"],
+    "identity:user_reset_password": 	["supervisor"],
+    "identity:user_role_list": 			["supervisor"],
+    "identity:user_role_grant": 		["supervisor"],
+    "identity:user_role_revoke": 		["supervisor"],
+
+    "identity:token_check": 			["supervisor"],
+    "identity:token_revoke": 			["supervisor"]
+}

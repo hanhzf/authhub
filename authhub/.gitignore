@@ -1,0 +1,9 @@
+db.sqlite3
+_build
+*.pyc
+*DS_Store
+.pydevproject
+*.project
+*org.eclipse.core.resources.prefs
+*.settings
+ws/db/migration/alembic_migrations/versions/*
