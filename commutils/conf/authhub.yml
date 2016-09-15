@@ -1,0 +1,16 @@
+common:
+  # whether this app is running in debug mode
+  debug: True
+api:
+  host: 127.0.0.1
+  port: 9081
+  protocol: http
+  media_url: http://127.0.0.1
+memcache:
+  - 127.0.0.1:11211
+postgres:
+  host: 127.0.0.1
+  passwd: zhu88jie
+log:
+  level: debug
+  verbose: True
