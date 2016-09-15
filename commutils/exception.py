@@ -13,7 +13,7 @@ import sys
 
 
 class ZenException(Exception):
-    """Base EAuth Exception
+    """Base AuthHub Exception
 
     To correctly use this class, inherit from it and define
     a 'msg_fmt' property. That msg_fmt will get printf'd

@@ -19,7 +19,7 @@ from commutils.log import log as logging
 LOG = logging.getLogger(__name__)
 
 
-class EAuthMiddleware(object):
+class AuthHubMiddleware(object):
     def __init__(self):
         pass
 

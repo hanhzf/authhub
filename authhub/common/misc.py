@@ -82,8 +82,8 @@ def get_request_headers(httprequest):
     ''' get httprequest headers
         @param : Django HttpRequest Object
     '''
-    authhub_token = httprequest.META['HTTP_X_EAUTH_TOKEN'] \
-                  if 'HTTP_X_EAUTH_TOKEN' in httprequest.META else None
+    authhub_token = httprequest.META['HTTP_X_AUTHHUB_TOKEN'] \
+                  if 'HTTP_X_AUTHHUB_TOKEN' in httprequest.META else None
     headers = {
         "method": httprequest.method,
         "path": httprequest.path,

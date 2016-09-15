@@ -1,8 +1,8 @@
-### prepare for EAuth
+### prepare for AuthHub
 
   * db and cache
 
-    EAuth use postgresql to manage data, use memcache to store session, you need
+    AuthHub use postgresql to manage data, use memcache to store session, you need
     have postgresql and memcache configure and installed before development.
 
   * init database authhub
@@ -19,9 +19,9 @@
       cd authhub/authhub/db/migration
       vim alembic.ini
       ```
-      sqlalchemy.url =postgresql://authhubadm:EAUTH_DB_PASSWORD@EAUTH_DB_HOST:5432/authhub
+      sqlalchemy.url =postgresql://authhubadm:AUTHHUB_DB_PASSWORD@AUTHHUB_DB_HOST:5432/authhub
 
-      replace EAUTH_DB_HOST and EAUTH_DB_PASSWORD with your postgresql's db ipaddress and password
+      replace AUTHHUB_DB_HOST and AUTHHUB_DB_PASSWORD with your postgresql's db ipaddress and password
 
     + create database tables
 
@@ -60,10 +60,10 @@
 
   * log is located at /opt/zen/logs/authhub.log
 
-### Try EAuth with docker image (within authhub-docker folder)
+### Try AuthHub with docker image (within authhub-docker folder)
 
    * cd authhub-docker, make sure Dockerfile is under this folder
-   * Follow this project's README doc to build docker images and run docker containers for EAuth
+   * Follow this project's README doc to build docker images and run docker containers for AuthHub
 
 ### Develop with virtualenv
 

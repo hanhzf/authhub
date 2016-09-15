@@ -12,7 +12,7 @@ from authhub.apps.v1.group_user_view import GroupUserViewSet
 #
 
 '''
-    This is the main api route for EAuth service.
+    This is the main api route for AuthHub service.
     default api version is v1.
 '''
 

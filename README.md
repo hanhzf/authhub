@@ -1,6 +1,6 @@
-# EAuth README
+# AuthHub README
 
-  EAuth provides pure RestAPI for user/group/role/token management.
+  AuthHub provides pure RestAPI for user/group/role/token management.
 
 ### Get Started
 

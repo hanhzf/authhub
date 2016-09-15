@@ -9,7 +9,7 @@
 
 '''memcache key prefix constant
 '''
-PROJECT_PREFIX = 'EAuth'
+PROJECT_PREFIX = 'AuthHub'
 
 
 USER_TOKEN_KEY_PREFIX_MEMCACHE = ('%s.UserTokenKey' % PROJECT_PREFIX)

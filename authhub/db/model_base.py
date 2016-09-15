@@ -13,7 +13,7 @@ from sqlalchemy.ext import declarative
 from sqlalchemy import orm, Column, Integer
 
     
-class EAuthModel(models.SoftDeleteMixin,
+class AuthHubModel(models.SoftDeleteMixin,
                models.TimestampMixin,
                models.ModelBase):
     """Base class for Zen Models."""
@@ -48,7 +48,7 @@ class EAuthModel(models.SoftDeleteMixin,
 
         if session is None:
             session = api.get_session()
-        super(EAuthModel, self).save(session=session)
+        super(AuthHubModel, self).save(session=session)
 
 
 class HasId(object):
@@ -56,4 +56,4 @@ class HasId(object):
 
     id = Column(Integer, primary_key=True, autoincrement=True)
 
-BASE = declarative.declarative_base(cls=EAuthModel)
+BASE = declarative.declarative_base(cls=AuthHubModel)
